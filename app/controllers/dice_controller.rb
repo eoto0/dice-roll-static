@@ -16,4 +16,8 @@ end
 def five_four
   render({ :template => "dice_templates/5d4"})
 end
+
+def homepage
+  render({ :template => "dice_templates/home"})
+end
 end
